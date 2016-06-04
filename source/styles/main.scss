@@ -1,3 +1,42 @@
+$primary-color-dark:   #5D4037
+$primary-color:        #795548
+$primary-color-light:  #D7CCC8
+$primary-color-text:   #FFFFFF
+$accent-color:         #FF5722
+$primary-text-color:   #212121
+$secondary-text-color: #727272
+$divider-color:        #B6B6B6
+
 body {
-	background: lightseagreen;
+	margin: 0;
+	-webkit-font-smoothing:antialiased;
+	color:#727272;
+}
+
+.app-wrap{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.app-header{
+	background: $primary-color;
+	height: 80px;
+	border-bottom: 2px solid #fff59d;
+	flex-shrink: 0;
+}
+
+.content{
+	background-color: #fafafa;
+	line-height: 1.8;
+	padding: 16px;
+	overflow-y: scroll;
+	flex-grow: 1;
+}
+
+.app-footer{
+	height: 80px;
+	background-color: $primary-color;
+	border-top: 1px solid #e6e6e6;
+	flex-shrink: 0;
 }
