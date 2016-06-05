@@ -52,6 +52,8 @@ a {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1; }
+  .content i {
+    display: block; }
 
 .app-footer {
   height: 80px;

@@ -54,6 +54,9 @@ a {
 	padding: 16px;
 	overflow-y: scroll;
 	flex-grow: 1;
+	i {
+		display: block;
+	}
 }
 
 .app-footer{
