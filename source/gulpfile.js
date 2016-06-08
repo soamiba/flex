@@ -43,9 +43,9 @@ gulp.task('rebuild', ['build'], function () {
 });
 
 gulp.task('watch', function(){
-  gulp.watch(['**/*.html'], ['rebuild']);
-  gulp.watch(['styles/*.scss'], ['sass']);
-  gulp.watch(['js/main.js'], ['cp']);
-})
+  gulp.watch('*/*.html', ['rebuild']);
+  gulp.watch('styles/*.scss', ['sass']);
+  gulp.watch('js/main.js', ['cp']);
+});
 
 gulp.task('default', ['browser-sync', 'watch']);
