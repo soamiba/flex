@@ -6,9 +6,23 @@
     background-color: #fff;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     margin: 20px 0;
     width: 100%;
+    .card-head{
+      display: flex;
+      img {
+        margin: 0;
+      }
+      div {
+        flex-grow: 1;
+      }
+      button {
+        height: 100%;
+        float: right;
+      }
+
+    }
     img {
       max-width: 100%;
       margin: 0 auto;

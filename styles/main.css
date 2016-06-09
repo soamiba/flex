@@ -143,9 +143,22 @@ ul {
     background-color: #fff;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     margin: 20px 0;
     width: 100%; }
+    .course .card .card-head {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .course .card .card-head img {
+        margin: 0; }
+      .course .card .card-head div {
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; }
+      .course .card .card-head button {
+        height: 100%;
+        float: right; }
     .course .card img {
       max-width: 100%;
       margin: 0 auto;
