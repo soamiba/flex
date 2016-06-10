@@ -136,34 +136,52 @@ ul {
 
 .course {
   margin: 0 auto;
-  padding: 16px; }
+  padding: 16px;
+  background-color: #5D4037; }
   .course .card {
     -webkit-transition: all 450ms ease;
     transition: all 450ms ease;
     background-color: #fff;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-    text-align: center;
     padding: 0px;
     margin: 20px 0;
     width: 100%; }
     .course .card .card-head {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex; }
-      .course .card .card-head img {
-        margin: 0; }
-      .course .card .card-head div {
-        -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1; }
+      display: flex;
+      height: 32px;
+      color: #795548; }
       .course .card .card-head button {
-        height: 100%;
-        float: right; }
+        margin-left: auto; }
+    .course .card .topic {
+      font-size: 13px;
+      color: #795548; }
+    .course .card .source {
+      font-size: 13px;
+      color: #795548; }
+    .course .card .card-footer {
+      font-size: 13px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      color: #795548; }
+      .course .card .card-footer a {
+        width: 50px;
+        padding-right: 5px;
+        padding-left: 10px;
+        font-size: 25px; }
+      .course .card .card-footer div {
+        margin-right: auto; }
     .course .card img {
       max-width: 100%;
       margin: 0 auto;
       border: 1px solid #eee; }
     .course .card .text {
+      font-size: 15px;
       margin-top: 15px;
       margin-bottom: 15px;
       word-wrap: break-word; }

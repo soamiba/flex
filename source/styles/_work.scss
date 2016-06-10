@@ -1,27 +1,45 @@
 .course {
   margin: 0 auto;
   padding: 16px;
+  background-color: $primary-color-dark;
   .card {
     transition: all 450ms ease;
     background-color: #fff;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-    text-align: center;
+    // text-align: center;
     padding: 0px;
     margin: 20px 0;
     width: 100%;
     .card-head{
       display: flex;
-      img {
-        margin: 0;
-      }
-      div {
-        flex-grow: 1;
-      }
+      height: 32px;
+      color: $primary-color;
       button {
-        height: 100%;
-        float: right;
+        margin-left: auto;
       }
-
+    }
+    .topic{
+      font-size: 13px;
+      color: $primary-color
+    }
+    .source{
+      font-size: 13px;
+      color: $primary-color
+    }
+    .card-footer{
+      font-size: 13px;
+      display: flex;
+      justify-content: flex-end;
+      color: $primary-color;
+        a {
+        width: 50px;
+        padding-right: 5px;
+        padding-left:10px;
+        font-size: 25px;
+        }
+        div {
+        margin-right:auto;
+        }
     }
     img {
       max-width: 100%;
@@ -29,6 +47,7 @@
       border: 1px solid #eee;
     }
     .text {
+      font-size: 15px;
       margin-top: 15px;
       margin-bottom: 15px;
       word-wrap: break-word;
